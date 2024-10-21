@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; /* Color de fondo para el resto del sitio */
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #e8dff7; /* Color de fondo del menú lateral */
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 10px;
+    color: #4a4a4a; /* Texto en gris oscuro */
+}
+
+.nav-link:hover {
+    background-color: #a07fbb; /* Color de fondo al pasar el mouse */
+    color: white; /* Color de texto en blanco */
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.login-container {
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background-image: url('../images/salon.png'); /* Ruta a tu imagen */
+    background-size: cover; /* Cubre toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.85); /* Fondo blanco con un poco más de opacidad */
+    border: 1px solid #d3d3d3; /* Borde gris claro para dar un poco de definición */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto de elevación */
+}
+
+a.btn-primary {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    background-color: #7d5ba6; /* Color del botón primario */
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    color: white; /* Texto en blanco */
+}
+
+a.btn-primary:hover {
+    background-color: #5b3c7a; /* Fondo más oscuro al hacer hover */
+    border: 2px solid #7d5ba6; /* Añade un borde de color lila */
+}
+
+a.btn-primary img {
+    border-radius: 5px; /* Le da bordes ligeramente redondeados */
+    transition: transform 0.3s ease;
+}
+
+a.btn-primary:hover img {
+    transform: scale(1.05); /* Agranda ligeramente la imagen al hacer hover */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Ajusta la imagen sin perder proporción */
+}
+
+.card-body {
+    text-align: center; /* Centra el texto dentro de cada tarjeta */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #4a4a4a; /* Títulos en gris oscuro */
+}

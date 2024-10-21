@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!--Menu lateral-->
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="turnos.html">Turnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="login.html">Salir</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Contenido principal -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <h1 class="mt-4">DASHBOARD PELUQUERIA CCH</h1>
+                <p>Elige donde quieres id </p>
+                    <!-- BOTONES, TURNOS, GRAFICOS  -->
+                       <!-- Tarjetas de Turnos y Servicios -->
+                <div class="container mt-5">
+                    <div class="row">
+                        <!-- Card para Turnos -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <a href="turnos.html" style="text-decoration: none; color: inherit;">
+                                    <img src="images/turnoAgenda.png" class="card-img-top" alt="Turnos" style="height: 250px; object-fit: cover;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Ver Turnos</h5>
+                                        <p class="card-text">Gestiona tu turnos y revisa las citas programadas de la peluquería.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card para Servicios -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <a href="servicios.html" style="text-decoration: none; color: inherit;">
+                                    <img src="images/servicios.jpg" class="card-img-top" alt="Servicios" style="height: 250px; object-fit: cover;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Ver Servicios</h5>
+                                        <p class="card-text">Explora los servicios que ofrece la peluquería, desde cortes hasta tratamientos avanzados.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
